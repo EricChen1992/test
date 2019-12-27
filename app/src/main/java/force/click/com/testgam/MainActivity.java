@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onAdLoaded() {
                 super.onAdLoaded();
-                Log.e("DDDD",mPublisherAdView.isShown()?"YES":"NO");
+//                Log.e("DDDD",mPublisherAdView.isShown()?"YES":"NO");
                 if (mPublisherAdView.isShown()){
                     mPublisherAdView.recordManualImpression();
                 }
